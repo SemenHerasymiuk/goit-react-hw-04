@@ -6,6 +6,7 @@ Modal.setAppElement('#root');
 const customStyles = {
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    zIndex: 2,
   },
   content: {
     top: '50%',
@@ -16,7 +17,9 @@ const customStyles = {
     transform: 'translate(-50%, -50%)',
     padding: '0',
     border: 'none',
-    background: 'none'
+    background: 'none',
+    maxWidth: '90vw',
+    maxHeight: '90vh',
   },
 };
 
