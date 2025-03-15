@@ -1,0 +1,24 @@
+.error {
+  padding: 20px;
+  text-align: center;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.errorContainer {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+.errorText {
+  color: #d32f2f;
+  font-size: 16px;
+  margin: 0;
+}
