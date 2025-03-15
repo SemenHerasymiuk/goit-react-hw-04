@@ -9,7 +9,6 @@ import ImageModal from './components/ImageModal/ImageModal';
 import ErrorMessage from './components/ErrorMessage/ErrorMessage';
 import './App.css';
 
-// Настройка axios для Unsplash API
 axios.defaults.baseURL = 'https://api.unsplash.com';
 axios.defaults.headers.common['Authorization'] = 'Client-ID GCFIpsn82hLPUCiquYWfLK3Oe7DufbbqqKasZBgO-Kc';
 
